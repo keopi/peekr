@@ -1,7 +1,5 @@
 # peekr
 
----
-
 ## Development
 
 Use `npm run dev` and then go to `http://localhost:3000`.
