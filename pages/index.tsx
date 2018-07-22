@@ -1,5 +1,7 @@
+const message = 'Welcome to next.js!';
+
 export default () => (
   <div>
-    Welcome to next.js!
+    {message}
   </div>
 );
