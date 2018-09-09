@@ -4,7 +4,9 @@
         "tslint:latest",
         "tslint-react"
     ],
-    "jsRules": {},
+    "jsRules": {
+        "quotemark": [true, "single", "jsx-double"]
+    },
     "rules": {
         "quotemark": [true, "single", "jsx-double"]
     },
