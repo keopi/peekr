@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@zeit/next-css": "^0.2.0",
     "@zeit/next-typescript": "^1.1.0",
     "bloomer": "^0.6.3",
     "bulma": "^0.7.1",
@@ -12,7 +13,6 @@
     "react-dom": "^16.5.0"
   },
   "devDependencies": {
-    "babel-plugin-inline-import": "^3.0.0",
     "tslint": "^5.11.0",
     "tslint-react": "^3.6.0",
     "typescript": "^2.9.2"
