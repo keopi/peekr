@@ -5,10 +5,12 @@
         "tslint-react"
     ],
     "jsRules": {
-        "quotemark": [true, "single", "jsx-double"]
+        "quotemark": [true, "single", "jsx-double"],
+        "trailing-comma": [true, {"multiline": "always", "singleline": "never"}]
     },
     "rules": {
-        "quotemark": [true, "single", "jsx-double"]
+        "quotemark": [true, "single", "jsx-double"],
+        "trailing-comma": [true, {"multiline": "always", "singleline": "never"}]
     },
     "rulesDirectory": []
 }
