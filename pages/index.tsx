@@ -1,7 +1,9 @@
+import { Box, Container } from 'bloomer';
+
 const message = 'Welcome to next.js!';
 
 export default () => (
-  <div>
-    {message}
-  </div>
+  <Container>
+    <Box>{message}</Box>
+  </Container>
 );
