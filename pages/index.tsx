@@ -1,5 +1,4 @@
-import Box from 'react-bulma-components/src/components/box';
-import Container from 'react-bulma-components/src/components/container';
+import { Box, Container } from 'react-bulma-components';
 
 const message = 'Welcome to next.js!';
 
