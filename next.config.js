@@ -1,3 +1,9 @@
-const withCSS = require("@zeit/next-css");
+const withSass = require('@zeit/next-sass');
+const withTM = require('next-transpile-modules');
 
-module.exports = withCSS();
+module.exports = withSass(withTM({
+    transpileModules: ['react-bulma-components'],
+    sassLoaderOptions: {
+        includePaths: ["./src"]
+    },
+}));

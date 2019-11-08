@@ -1,7 +1,6 @@
 // _document is only rendered on the server side and not on the client side
 // Event handlers like onClick can't be added to this file
 import Document, { Head, Main, NextScript } from 'next/document';
-import 'bulma/css/bulma.min.css';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -14,7 +13,6 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="stylesheet" href="/_next/static/style.css" />
         </Head>
         <body className="custom_class">
           <Main />
